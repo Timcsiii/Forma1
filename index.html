@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formula 1 – a motorsport királykategóriája. Ismerkedj meg a sport történelmével, a Mercedes csapattal és a legendás pilótákkal.">
+  <title>Formula 1 – Főoldal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar"></div>
+
+<nav>
+  <a class="nav-logo" href="index.html">F1 ⚑</a>
+  <button class="nav-toggle" aria-label="Menü">
+    <span></span><span></span><span></span>
+  </button>
+  <ul>
+    <li><a href="index.html" class="active">Főoldal</a></li>
+    <li><a href="tortenet.html">Történelem</a></li>
+    <li><a href="mercedes.html">Mercedes</a></li>
+    <li><a href="pilota.html">Pilóták</a></li>
+    <li><a href="forrasok.html">Források</a></li>
+
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-lines"></div>
+  <div class="hero-stripe"></div>
+  <div class="hero-content">
+    <div class="hero-img-wrap">
+      <img
+        src="f1logo.jpg"
+        data-fallback="https://images.unsplash.com/photo-1541773367336-d3f5578c0b53?w=1200&q=80"
+        onerror="this.src=this.dataset.fallback"
+        alt="Formula 1 verseny rajt"
+      >
+    </div>
+    <h1>Formula 1</h1>
+    <p class="hero-sub">A motorsport királykategóriája</p>
+  </div>
+  <div class="hero-scroll">
+    <span>Görgess</span>
+    <div class="hero-scroll-line"></div>
+  </div>
+</section>
+
+<div class="facts-section">
+  <div class="facts-grid">
+    <div class="fact-item reveal reveal-d1">
+      <div class="fact-num" data-target="76" data-suffix="+">76+</div>
+      <div class="fact-label">Év a motorsportban</div>
+    </div>
+    <div class="fact-item reveal reveal-d2">
+      <div class="fact-num" data-target="24">24</div>
+      <div class="fact-label">Futam évente</div>
+    </div>
+    <div class="fact-item reveal reveal-d3">
+      <div class="fact-num" data-target="11">11</div>
+      <div class="fact-label">Csapat a mezőnyben</div>
+    </div>
+    <div class="fact-item reveal reveal-d4">
+      <div class="fact-num" data-target="300" data-suffix="+">300+</div>
+      <div class="fact-label">Millió néző évente</div>
+    </div>
+  </div>
+</div>
+
+<section class="cards-section">
+  <p class="section-label reveal">Fedezd fel</p>
+  <h2 class="section-title reveal">Témáink</h2>
+  <div class="cards">
+
+    <a class="card reveal reveal-d1" href="tortenet.html">
+      <div class="card-top-bar"></div>
+      <div class="card-thumb">
+        <img
+          src="regi.jpg"
+          data-fallback="https://images.unsplash.com/photo-1504707748692-419802426c4f?w=640&q=80"
+          onerror="this.src=this.dataset.fallback"
+          alt="1950-es Brit Nagydíj"
+        >
+      </div>
+      <div class="card-body">
+        <div class="card-num">01</div>
+        <h3>Az F1 Története</h3>
+        <p>Az első futamtól napjainkig – hogyan vált a Formula 1 a világ legnépszerűbb motorsport-sorozatává?</p>
+        <span class="card-arrow">Olvass tovább →</span>
+      </div>
+    </a>
+
+    <a class="card reveal reveal-d2" href="mercedes.html">
+      <div class="card-top-bar"></div>
+      <div class="card-thumb">
+        <img
+          src="merclogo.jpg"
+          data-fallback="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=640&q=80"
+          onerror="this.src=this.dataset.fallback"
+          alt="Lewis Hamilton Mercedes"
+        >
+      </div>
+      <div class="card-body">
+        <div class="card-num">02</div>
+        <h3>Mercedes AMG F1</h3>
+        <p>A legsikeresebbek egyike – az ezüstnyilak dominanciájának titka, pilótái és rekordjai.</p>
+        <span class="card-arrow">Olvass tovább →</span>
+      </div>
+    </a>
+
+    <a class="card reveal reveal-d3" href="pilota.html">
+      <div class="card-top-bar"></div>
+      <div class="card-thumb">
+        <img
+          src="goat.jpg"
+          data-fallback="https://images.unsplash.com/photo-1567575584049-f2b6278e56c5?w=640&q=80"
+          onerror="this.src=this.dataset.fallback"
+          alt="Lewis Hamilton"
+        >
+      </div>
+      <div class="card-body">
+        <div class="card-num">03</div>
+        <h3>Legendás Pilóták</h3>
+        <p>Senna, Schumacher, Hamilton – az F1 legnagyobb versenyzői, akik örökre beírták nevüket a históriába.</p>
+        <span class="card-arrow">Olvass tovább →</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section class="makers-section">
+  
+  <h2 class="section-title reveal">Készítők</h2>
+  <div class="makers-grid">
+    <div class="maker reveal reveal-d1">
+      <div class="maker-avatar">K</div>
+      <span>Kocsi Gábor Dániel</span>
+    </div>
+    <div class="maker reveal reveal-d2">
+      <div class="maker-avatar">H</div>
+      <span>Hegedűs Tímea</span>
+    </div>
+    <div class="maker reveal reveal-d3">
+      <div class="maker-avatar">K</div>
+      <span>Korcsog Zalán</span>
+    </div>
+  </div>
+  
+</section>
+
+<footer>© F1 Weboldal</footer>
+
+<button class="scroll-top" aria-label="Vissza a tetejére">↑</button>
+
+<script src="quiz.js"></script>
+</body>
+</html>
